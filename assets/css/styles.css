@@ -572,6 +572,9 @@ html {
 .skills__javascript{
   width: 60%;
 }
+.skills__react{
+  width: 70%;
+}
 .skills__bootstrap{
   width: 75%;
 }
