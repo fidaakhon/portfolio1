@@ -264,7 +264,7 @@ const sendEmail = (e) =>{
        // Check for internet connection
        if(navigator.onLine){
                  //service-ID , templet-TD , #form , publicKey
-                 emailjs.sendForm('service_Id_portfolio','template_cvm340d','#contact-form','dfaY-Aoga6ddrbtcd')
+                 emailjs.sendForm('service_Id_portfolio','template_cvm340d',contactForm,'dfaY-Aoga6ddrbtcd')
                  .then(()=> {
                      contactAlert.classList.remove('color-red')
                      contactAlert.classList.add('color-green')
