@@ -263,6 +263,7 @@ const sendEmail = (e) =>{
 
        // Check for internet connection
        if(navigator.onLine){
+           console.log("cliekd the button");
                  //service-ID , templet-TD , #form , publicKey
                  emailjs.sendForm('service_Id_portfolio','template_cvm340d',contactForm,'dfaY-Aoga6ddrbtcd')
                  .then(()=> {
@@ -303,9 +304,9 @@ contactForm.addEventListener('submit', sendEmail)
 
 /*==================== TO DISABLE RIGHT CLICK ====================*/
 
-document.addEventListener("contextmenu", function (e){
-    e.preventDefault();
-}, false);
+// document.addEventListener("contextmenu", function (e){
+//     e.preventDefault();
+// }, false);
 
 /*==================== TO DISABLE SCREENSHOTS ====================*/
 document.addEventListener('keyup', (e) => {
